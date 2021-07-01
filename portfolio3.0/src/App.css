@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300&display=swap');
+
+:root {
+    --grGold: #D1A103;
+    --off-white1: #fffcfc;
+    --myGray: #555555;
+    --logoBlue: #0B173D;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Navbar */
+/* nav {
+    background-color: var(--logoBlue)!important;
+} */
+
+.logo {
+    width: 17.25rem
+}
+
+/* .navbar-dark {
+    bg-*: var(--logoBlue)!important;
+} */
+
+nav a.nav-link {
+    font-weight: 100;
+    letter-spacing: 0.037rem;
+    cursor: pointer;
+}
+
+nav ul li {
+    text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+    color: var(--off-white1)!important;
+    border-top: 0.1875rem solid rgba(255, 255, 255, 0);
+}
+
+.navbar-brand {
+    max-width: 17.25rem;
+    padding: 0!important;
+    height: 6rem!important;
+}
+
+navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+    border-top: 0.1875rem solid var(--grGold);
+}
+
+.navbar-nav > li > a:hover {
+    border-top: 0.1875rem solid var(--grGold)
+}
