@@ -8,9 +8,9 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark" style={{backgroundColor: "#0B173D"}}>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container">  
-            <a className="navbar-brand" href="#"><img className="logo" src={cover} alt="logo"/></a>
+            <a className="navbar-brand" href="#"></a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <FontAwesomeIcon  icon={faBars} style={{ color: "#ffffff"}}/>
             </button>

@@ -11,13 +11,9 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-/* Navbar */
-/* nav {
-    background-color: var(--logoBlue)!important;
-} */
-
+/* --------------------Navbar------------------- */
 .logo {
-    width: 17.25rem
+    width: 16rem
 }
 
 /* .navbar-dark {
@@ -48,9 +44,61 @@ nav ul li {
 }
 
 navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
-    border-top: 0.1875rem solid var(--grGold);
+    border-top: 0.1875rem solid #d7108e;
 }
 
 .navbar-nav > li > a:hover {
-    border-top: 0.1875rem solid var(--grGold)
+    border-top: 0.1875rem solid #d7108e;
+}
+
+/* --------------------Header------------------- */
+
+.header-wrapper {
+    position: relative;
+    background: url(images/header-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.main-info {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.main-info h1 {
+    font-size:4rem;
+    font-weight: bold;
+    color: #d7108e;
+    text-transform: uppercase;
+}
+
+/* -----------------Typed Text------------------- */
+
+.typed-text {
+    font-size: 3rem;
+    font-weight: 350;
+    color: #d7108e;
+}
+
+/* -----------Header Main Btn-------------- */
+
+.btn-main {
+    border: 1px solid #fffcfc;
+    border-radius: 50rem;
+    padding: 0.5rem;
+    color: #fffcfc;
+    margin: 3rem ;
+    background-color: black;
+    opacity: 0.7;
+    text-decoration: none;
 }
