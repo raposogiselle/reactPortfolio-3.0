@@ -1,5 +1,4 @@
 import React from "react";
-import cover from "../images/cover.png";
 // import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -24,10 +23,10 @@ const Navbar = () => {
                 <a className="nav-link" href="#">About Me</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Technologies</a>
+                <a className="nav-link" href="#">Projects</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Projects</a>
+                <a className="nav-link" href="#">Technologies</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">Contact Me</a>

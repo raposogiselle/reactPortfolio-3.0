@@ -3,15 +3,19 @@
 :root {
     --grGold: #D1A103;
     --off-white1: #fffcfc;
-    --myGray: #555555;
-    --logoBlue: #0B173D;
+    
 }
 
 body {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif !important;
 }
 
 /* --------------------Navbar------------------- */
+
+nav {
+    z-index: 2;
+}
+
 .logo {
     width: 16rem
 }
@@ -44,11 +48,11 @@ nav ul li {
 }
 
 navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
-    border-top: 0.1875rem solid #d7108e;
+    border-top: 0.1875rem solid var(--grGold);
 }
 
 .navbar-nav > li > a:hover {
-    border-top: 0.1875rem solid #d7108e;
+    border-top: 0.1875rem solid var(--grGold);
 }
 
 /* --------------------Header------------------- */
@@ -73,27 +77,29 @@ navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
     align-items: center;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
+    z-index: 1;
 }
 
 .main-info h1 {
     font-size:4rem;
     font-weight: bold;
-    color: #d7108e;
+    color: var(--grGold);
     text-transform: uppercase;
 }
 
 /* -----------------Typed Text------------------- */
 
 .typed-text {
-    font-size: 3rem;
-    font-weight: 350;
-    color: #d7108e;
+    font-size: 2.75rem;
+    font-weight: bold;
+    color: var(--off-white1);
 }
 
 /* -----------Header Main Btn-------------- */
 
 .btn-main {
     border: 1px solid #fffcfc;
+    text-transform: uppercase;
     border-radius: 50rem;
     padding: 0.5rem;
     color: #fffcfc;
@@ -101,4 +107,59 @@ navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
     background-color: black;
     opacity: 0.7;
     text-decoration: none;
+}
+
+.btn-main:hover {
+    text-decoration: none;
+    background-color: var(--grGold);
+}
+
+/* -----------Particles JS-------------- */
+
+.tsparticles-canvas-el {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+
+}
+
+@media(max-width: 768px) {
+    .particles-canvas {
+        display: none;
+    }
+}
+
+
+/* -----------About-------------- */
+.profile-img {
+    width: 16rem;
+    border-radius: 50%;
+    padding: .3rem;
+    /* border: 1px solid; */
+}
+
+.about-heading {
+    text-transform: uppercase;
+}
+
+
+
+/* -----------------Project------------------- */
+
+.projects-wrapper {
+    background: #292C2D;
+    color: white;
+    padding: 3rem 0;
+}
+
+.projects-images{
+    width: 15rem;
+    /* border: 1px solid  #d7108e; */
+    padding: 0 0.5rem;
+}
+
+.project-image-box {
+    position: relative;
+    margin: 1rem;
 }
