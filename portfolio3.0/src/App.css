@@ -133,19 +133,29 @@ navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
 
 /* -----------About-------------- */
 .profile-img {
-    width: 16rem;
+    /* width: 16rem; */
+    margin: auto;
+    display: block;
     border-radius: 50%;
+    height: 300px;
+    width: 300px;
     padding: .3rem;
-    /* border: 1px solid; */
+    border: 1px solid var(--grGold);
 }
 
 .about-heading {
     text-transform: uppercase;
+    text-align: center;
+    color: var(--grGold);
+}
+
+.about-p {
+    line-height: 2em;
 }
 
 
 
-/* -----------------Project------------------- */
+/* -----------------Projects------------------- */
 
 .projects-wrapper {
     background: #292C2D;

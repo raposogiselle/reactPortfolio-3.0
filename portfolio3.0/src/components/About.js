@@ -6,17 +6,17 @@ const About = () => {
         <div className="container py-5">
             <div className="row">
                <div className="col-lg-6 col-xm-12">
-                    <div className="photo-wrap">
+                    <div className="photo-wrap mb-5">
                     <img className="profile-img" src={author} alt="author..."/> 
                     </div>  
                </div>
                <div className="col-lg-6 col-xm-12">
-                   <h1 className="about-heading">About Me</h1>
-                   <p> Ciao!! I am Giselle a New York City Stylist & Full Stack Web Developer from Columbia University. 
-                       Excited of all the doors this knowledge will open. 
-                       I have no doubt that in due time all this knowledge will translate into exciting cutting edge projects to be showcased here.
-                       Since fashion is something I am passionate about is no suprise 
-                       "The Astounding World of Fashion and Technology Merging" caught my attentiom and I can not wait to be part of it.
+                   <h1 className="about-heading">About</h1>
+                   <p className="about-p"> Ciao!! I'm Giselle, a New York City Stylist & Full Stack Web Developer. Columbia University, 2021. 
+                       Fabulously passionate about fashion and creating all things aesthetically pleasing. Highly creative. I also enjoy the building process of a project, something I have learned to enjoy even more through my coding bootcamp.
+                       New York City is my playground. Love everything this city has to offer: culture, diversity, art, FASHION! This whole city is fuel to creativity.
+                       In my free time I play tennis, aimlessly wander the city streets with my giant puppy, and savor the many gastronomic gifts it has.
+                       Fashion and technology merging caught my attention, called my name. I'm here now!!!
                    </p>
                </div>  
 
