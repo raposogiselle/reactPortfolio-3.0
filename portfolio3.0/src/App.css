@@ -158,18 +158,30 @@ navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
 /* -----------------Projects------------------- */
 
 .projects-wrapper {
-    background: #292C2D;
+    /* background: #292C2D;
+    padding: 3rem 0; */
+    background: url(images/jason-mccann-technologies.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
     color: white;
     padding: 3rem 0;
 }
 
-.projects-images{
-    width: 15rem;
-    /* border: 1px solid  #d7108e; */
-    padding: 0 0.5rem;
+.project-image-box {
+    /* position: relative; */
+    margin: 1rem;
+    
+    display: inline-block;
+    display: flex;
+    justify-content: center;
 }
 
-.project-image-box {
-    position: relative;
-    margin: 1rem;
+.projects-images {
+    width: 15rem;
+    border: 1px solid var(--grGold);
+    padding: 0.5rem 0.5rem;
 }
+
+
+

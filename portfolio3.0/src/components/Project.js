@@ -1,10 +1,11 @@
-import React from 'react'
-import notetaker from "../images/note-taker.png";
+import React from 'react';
+import VinoVR from "../images/vinoVR.png";
+// import notetaker from "../images/note-taker.png";
 import bartering from "../images/bartering.png";
 import tarot from "../images/tipsy-tarot.png";
 import password from "../images/pw-generator.png"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 
 const Project = () => {
@@ -13,22 +14,22 @@ const Project = () => {
             <div className="container">
                 <h1 className="text-uppercase text-center py-5">Projects</h1>
                     <div className="image-box-wrapper row justify-content-center">
+                        
                         <div className="project-image-box">
-                        <img className="projects-images" src={notetaker} alt="note taking app"/>
-                        <FontAwesomeIcon  className="project-github" icon={faBars} />
+                          <img className="projects-images" src={VinoVR} alt="A browser VR experience"/>
+                        {/* <FontAwesomeIcon  className="project-github" icon={faBars} /> */}
                         </div>
-                
+                        
                         <div className="project-image-box">
-                        <img className="projects-images" src={bartering} alt="bartering app"/>
+                          <img className="projects-images" src={bartering} alt="bartering app"/>
                         </div>
-                
-        
+                       
                         <div className="project-image-box">
-                        <img className="projects-images" src={tarot} alt="tarot cards and cocktail recipies app"/>
+                          <img className="projects-images" src={tarot} alt="tarot cards and cocktail recipies app"/>
                         </div>
-                
+                    
                         <div className="project-image-box">
-                        <img className="projects-images" src={password} alt="password generator app"/>
+                          <img className="projects-images" src={password} alt="password generator app"/>
                         </div>
                     </div>  
             </div>
