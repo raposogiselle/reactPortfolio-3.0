@@ -108,7 +108,7 @@ const popupboxConfigpassword = {
 
 
     return (
-        <div className="projects-wrapper">
+        <div id="projects" className="projects-wrapper">
             <div className="container">
                 <h1 className="text-uppercase text-center py-5" style={{color: "#D1A103"}}>Projects</h1>
                     <div className="d-flex">

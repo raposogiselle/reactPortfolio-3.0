@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <div id="contact" className="footer">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-4 col-md-6 col-sm-6">

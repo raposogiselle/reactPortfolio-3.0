@@ -62,7 +62,7 @@ navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
     background: url(images/header-unsplash.jpg);
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    height: 100vh;
 }
 
 .main-info {
