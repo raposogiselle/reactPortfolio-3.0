@@ -17,19 +17,19 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
-                <Link smooth={true} to="home" className="nav-link" href="#">Home <span className="sr-only"></span></Link>
+                <Link smooth={true} to="home" offset={-110} className="nav-link" href="#">Home <span className="sr-only"></span></Link>
               </li>
               <li className="nav-item">
-                <Link smooth={true} to="about" className="nav-link" href="#">About Me</Link>
+                <Link smooth={true} to="about" offset={-110} className="nav-link" href="#">About Me</Link>
               </li>
               <li className="nav-item">
-                <Link smooth={true} to="projects" className="nav-link" href="#">Projects</Link>
+                <Link smooth={true} to="projects" offset={-110} className="nav-link" href="#">Projects</Link>
               </li>
               <li className="nav-item">
-                <Link smooth={true} to="technologies" className="nav-link" href="#">Technologies</Link>
+                <Link smooth={true} to="technologies" offset={-110} className="nav-link" href="#">Technologies</Link>
               </li>
               <li className="nav-item">
-                <Link smooth={true} to="contact" className="nav-link" href="#">Contact Me</Link>
+                <Link smooth={true} to="contact" offset={-110} className="nav-link" href="#">Contact Me</Link>
               </li>
             </ul>
           </div>
