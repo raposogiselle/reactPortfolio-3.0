@@ -259,4 +259,25 @@ navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
     }
 }
 
+/* -----------------Footer------------------- */
+.footer {
+    background: #292C2D;
+    color: var(--off-white1);
+    padding: 3rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: var(--off-white1);
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: var(--grGold);
+    cursor: pointer;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
 
