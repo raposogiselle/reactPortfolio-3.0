@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/reactPortfolio-3.0/static/css/main.5c439772.chunk.css",
+    "main.js": "/reactPortfolio-3.0/static/js/main.421128ac.chunk.js",
+    "main.js.map": "/reactPortfolio-3.0/static/js/main.421128ac.chunk.js.map",
+    "runtime-main.js": "/reactPortfolio-3.0/static/js/runtime-main.2c2e6ecd.js",
+    "runtime-main.js.map": "/reactPortfolio-3.0/static/js/runtime-main.2c2e6ecd.js.map",
+    "static/css/2.a2df37b2.chunk.css": "/reactPortfolio-3.0/static/css/2.a2df37b2.chunk.css",
+    "static/js/2.0d1b2b61.chunk.js": "/reactPortfolio-3.0/static/js/2.0d1b2b61.chunk.js",
+    "static/js/2.0d1b2b61.chunk.js.map": "/reactPortfolio-3.0/static/js/2.0d1b2b61.chunk.js.map",
+    "index.html": "/reactPortfolio-3.0/index.html",
+    "static/css/2.a2df37b2.chunk.css.map": "/reactPortfolio-3.0/static/css/2.a2df37b2.chunk.css.map",
+    "static/css/main.5c439772.chunk.css.map": "/reactPortfolio-3.0/static/css/main.5c439772.chunk.css.map",
+    "static/js/2.0d1b2b61.chunk.js.LICENSE.txt": "/reactPortfolio-3.0/static/js/2.0d1b2b61.chunk.js.LICENSE.txt",
+    "static/media/bartering.6f94be69.png": "/reactPortfolio-3.0/static/media/bartering.6f94be69.png",
+    "static/media/App.css": "/reactPortfolio-3.0/static/media/jason-mccann-technologies.391e4c06.jpg",
+    "static/media/me-photo.b3f0c7cc.PNG": "/reactPortfolio-3.0/static/media/me-photo.b3f0c7cc.PNG",
+    "static/media/pw-generator.b41ead38.png": "/reactPortfolio-3.0/static/media/pw-generator.b41ead38.png",
+    "static/media/tipsy-tarot.a9a55969.png": "/reactPortfolio-3.0/static/media/tipsy-tarot.a9a55969.png",
+    "static/media/vinoVR.a0503a0d.png": "/reactPortfolio-3.0/static/media/vinoVR.a0503a0d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2c2e6ecd.js",
+    "static/css/2.a2df37b2.chunk.css",
+    "static/js/2.0d1b2b61.chunk.js",
+    "static/css/main.5c439772.chunk.css",
+    "static/js/main.421128ac.chunk.js"
+  ]
+}
